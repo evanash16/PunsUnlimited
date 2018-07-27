@@ -1,0 +1,41 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="css/layout.css"/>
+    <link rel="stylesheet" href="css/headerItems.css"/>
+    <link rel="stylesheet" href="css/containers.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"/>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+    <script src="js/utils.js"></script>
+    <script src="js/generation.js"></script>
+    <script src="js/index.js"></script>
+  </head>
+
+  <body onload="setupPage()">
+    <header>
+      <div class="pageTitle">
+        <h><a hrefs="/">Puns Unlimited</a></h
+>      </div>
+      <div class="pageHeader">
+        <div class="headerItem">
+          <a href="/">Home</a>
+        </div>
+        <div class="dropdownItem">
+          <a class="dropdownHeader">About</a>
+          <div class="dropdownContent">
+            <a href="/">Bio</a>
+            <a href="/">About Us</a>
+            <a href="/">Contact</a>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="imageList" id="mainImages"></div>
+      <button onclick="generateImage()">Create Image</button>
+    </main>
+  </body>
+
+</html>

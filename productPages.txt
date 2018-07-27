@@ -1,0 +1,20 @@
+{
+  "cute":
+  	{
+			"source": "cat.jpeg",
+			"title": "A cute page",
+			"description": "cute.txt"
+		},
+	"cuter": 
+		{
+			"source": "cat2.jpg",
+			"title": "A cuter page",
+			"description": "cuter.txt"
+		},
+	"cutest": 
+		{
+			"source": "cat3.jpeg",
+			"title": "The cutest page",
+			"description": "cutest.txt"
+		}
+}
